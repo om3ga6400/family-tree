@@ -187,10 +187,12 @@ var edges = new vis.DataSet([
   { from: "Khai", to: "Jasmine", label: "Child", arrows: "to" },
 
   { from: "Jasmine", to: "Jack", label: "Child", arrows: "to" },
+  { from: "Noah Jones", to: "Jack", label: "Child", arrows: "to" },
   { from: "Jasmine", to: "Charlotte", label: "Child", arrows: "to" },
+  { from: "Noah Jones", to: "Charlotte", label: "Child", arrows: "to" },
   { from: "Ren", to: "Penny", label: "Child", arrows: "to" },
   { from: "Arson", to: "Owen", label: "Child", arrows: "to" },
-  { from: "Mama", to: "Myla", label: "Adopted Child", arrows: "to" },
+  { from: "Mama", to: "Myla", label: "Step-Parent", arrows: "to" },
   { from: "Mama", to: "Khai", label: "Child", arrows: "to" },
   { from: "Mama", to: "Zoe", label: "Child", arrows: "to" },
   { from: "Mama", to: "Arson", label: "Child", arrows: "to" },
@@ -220,6 +222,7 @@ var edges = new vis.DataSet([
 
   // Marriages (red)
   { from: "Zoe", to: "Cailee", label: "Married", arrows: "", color: { color: "#ff3333" }, width: 2 },
+  { from: "Jasmine", to: "Noah Jones", label: "Married", arrows: "", color: { color: "#ff3333" }, width: 2 },
 
   // Uncles
   { from: "Casey", to: "Jasmine", label: "Uncle", arrows: "to" },

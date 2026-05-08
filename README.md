@@ -10,7 +10,7 @@ Ren: arson, myla, Alex, Lincoln, Braxton, (Noah Gathers?)
 Myla: ayden
 
 Step-parents:
-ren: ?
+Myla: Mama
 
 Siblings:
 Jasmine: ayden, owen, noah jones, mason (has no parents), caleb osborne
@@ -20,10 +20,10 @@ Ren: Henry
 
 Children:
 Forest and Khai: Owen, Charlie, Jasmine
-Jasmine: jack, charlotte
+Jasmine and noah jones: jack, charlotte
 Ren: penny
 arson: owen
-Mama: Myla (adopted), Khai, zoe, arson
+Mama:Khai, zoe, arson
 
 Grandparents:
 Jasmine: mama, rowin
@@ -45,6 +45,7 @@ alex and lincoln
 
 Marrages:
 Zoe and Cailee
+Jasmine and noah jones
 
 Uncles:
 Jasmine: casey

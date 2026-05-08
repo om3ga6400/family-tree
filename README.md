@@ -20,7 +20,7 @@ Ren: Henry
 
 Children:
 Forest and Khai: Owen, Charlie, Jasmine
-Jasmine: jack, charlotte 
+Jasmine: jack, charlotte
 Ren: penny
 arson: owen
 Mama: Myla (adopted), Khai, zoe, arson
@@ -32,9 +32,9 @@ Henry: Ayden
 
 Cousins:
 Jasmine: henry, ren
-ayden: lincoln 
+ayden: lincoln
 
-Dating: 
+Dating:
 camme and owen
 milo and ayden
 noah jones and caleb
@@ -43,9 +43,9 @@ arson and myla
 ren and henry
 alex and lincoln
 
-Marrages: 
+Marrages:
 Zoe and Cailee
 
-Uncles: 
+Uncles:
 Jasmine: casey
 ```

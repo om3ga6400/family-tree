@@ -163,7 +163,6 @@ var edges = new vis.DataSet([
   { from: "Caleb Osborne", to: "Jasmine", label: "Parent", arrows: "to" },
   { from: "Camme", to: "Jasmine", label: "Parent", arrows: "to" },
   { from: "Noah Jones", to: "Forrest", label: "Parent", arrows: "to" },
-  { from: "Nick", to: "Forrest", label: "Ex-Kid", arrows: "to", dashes: true },
   { from: "Arson", to: "Henry", label: "Parent", arrows: "to" },
   { from: "Myla", to: "Henry", label: "Parent", arrows: "to" },
   { from: "Arson", to: "Ren", label: "Parent", arrows: "to" },
@@ -203,6 +202,9 @@ var edges = new vis.DataSet([
   { from: "Mama", to: "Zoe", label: "Child", arrows: "to" },
   { from: "Mama", to: "Arson", label: "Child", arrows: "to" },
 
+  // Ex-Children
+  { from: "Nick", to: "Forrest", label: "Ex-Kid", arrows: "to", dashes: true },
+
   // Grandparents
   { from: "Mama", to: "Jasmine", label: "Grandparent", arrows: "to" },
   { from: "Rowin", to: "Jasmine", label: "Grandparent", arrows: "to" },
@@ -231,6 +233,7 @@ var edges = new vis.DataSet([
   { from: "Zoe", to: "Cailee", label: "Married", arrows: "", color: { color: "#ff3333" }, width: 2 },
   { from: "Jasmine", to: "Noah Jones", label: "Married", arrows: "", color: { color: "#ff3333" }, width: 2 },
   { from: "Rowin", to: "Catherine", label: "Married", arrows: "", color: { color: "#ff3333" }, width: 2 },
+  { from: "Arson", to: "Myla", label: "Married", arrows: "", color: { color: "#ff3333" }, width: 2 },
 
   // Uncles
   { from: "Casey", to: "Jasmine", label: "Uncle", arrows: "to" },

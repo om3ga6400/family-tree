@@ -139,6 +139,11 @@ var nodes = new vis.DataSet([
     label: "Nick",
     color: { background: "#ffe6cc", border: "#ffcc99" },
   },
+  {
+    id: "Catherine",
+    label: "Catherine",
+    color: { background: "#ffd9b3", border: "#ffb366" },
+  },
 ]);
 
 var edges = new vis.DataSet([
@@ -185,7 +190,6 @@ var edges = new vis.DataSet([
   { from: "Khai", to: "Owen", label: "Child", arrows: "to" },
   { from: "Khai", to: "Charlie", label: "Child", arrows: "to" },
   { from: "Khai", to: "Jasmine", label: "Child", arrows: "to" },
-
   { from: "Jasmine", to: "Jack", label: "Child", arrows: "to" },
   { from: "Noah Jones", to: "Jack", label: "Child", arrows: "to" },
   { from: "Jasmine", to: "Charlotte", label: "Child", arrows: "to" },
@@ -219,6 +223,7 @@ var edges = new vis.DataSet([
   { from: "Arson", to: "Myla", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
   { from: "Ren", to: "Henry", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
   { from: "Alex", to: "Lincoln", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
+  { from: "Rowin", to: "Catherine", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
 
   // Marriages (red)
   { from: "Zoe", to: "Cailee", label: "Married", arrows: "", color: { color: "#ff3333" }, width: 2 },

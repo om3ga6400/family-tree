@@ -147,7 +147,7 @@ var nodes = new vis.DataSet([
   {
     id: "Sam",
     label: "Sam",
-    color: { background: "#ffe6fa", border: "#ffb3e6" }
+    color: { background: "#ffe6fa", border: "#ffb3e6" },
   },
 ]);
 

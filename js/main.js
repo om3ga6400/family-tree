@@ -110,8 +110,8 @@ var nodes = new vis.DataSet([
     color: { background: "#b3ffb3", border: "#99ff99" },
   },
   {
-    id: "Mama",
-    label: "Mama",
+    id: "Catherine",
+    label: "Catherine",
     color: { background: "#ffccff", border: "#ff99ff" },
   },
   {
@@ -138,11 +138,6 @@ var nodes = new vis.DataSet([
     id: "Nick",
     label: "Nick",
     color: { background: "#ffe6cc", border: "#ffcc99" },
-  },
-  {
-    id: "Catherine",
-    label: "Catherine",
-    color: { background: "#ffd9b3", border: "#ffb366" },
   },
   {
     id: "Sam",
@@ -180,7 +175,7 @@ var edges = new vis.DataSet([
   { from: "Jasmine", to: "Mason", label: "Sibling", arrows: "" },
   { from: "Jasmine", to: "Caleb Osborne", label: "Sibling", arrows: "" },
   { from: "Arson", to: "Khai", label: "Sibling", arrows: "" },
-  { from: "Nick", to: "Mama", label: "Sibling", arrows: "" },
+  { from: "Nick", to: "Catherine", label: "Sibling", arrows: "" },
   { from: "Ren", to: "Henry", label: "Sibling", arrows: "" },
   { from: "Sam", to: "Catherine", label: "Sibling", arrows: "" },
 
@@ -197,16 +192,16 @@ var edges = new vis.DataSet([
   { from: "Noah Jones", to: "Charlotte", label: "Child", arrows: "to" },
   { from: "Ren", to: "Penny", label: "Child", arrows: "to" },
   { from: "Arson", to: "Owen", label: "Child", arrows: "to" },
-  { from: "Mama", to: "Myla", label: "Step-Parent", arrows: "to" },
-  { from: "Mama", to: "Khai", label: "Child", arrows: "to" },
-  { from: "Mama", to: "Zoe", label: "Child", arrows: "to" },
-  { from: "Mama", to: "Arson", label: "Child", arrows: "to" },
+  { from: "Catherine", to: "Myla", label: "Step-Parent", arrows: "to" },
+  { from: "Catherine", to: "Khai", label: "Child", arrows: "to" },
+  { from: "Catherine", to: "Zoe", label: "Child", arrows: "to" },
+  { from: "Catherine", to: "Arson", label: "Child", arrows: "to" },
 
   // Ex-Children
   { from: "Nick", to: "Forrest", label: "Ex-Kid", arrows: "to", dashes: true },
 
   // Grandparents
-  { from: "Mama", to: "Jasmine", label: "Grandparent", arrows: "to" },
+  { from: "Catherine", to: "Jasmine", label: "Grandparent", arrows: "to" },
   { from: "Rowin", to: "Jasmine", label: "Grandparent", arrows: "to" },
   { from: "Zoe", to: "Ren", label: "Grandparent", arrows: "to" },
   { from: "Ayden", to: "Ren", label: "Grandparent", arrows: "to" },

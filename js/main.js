@@ -20,6 +20,11 @@ var nodes = new vis.DataSet([
     color: { background: "#99ff99", border: "#66ff66" },
   },
   {
+    id: "Jones",
+    label: "Jones",
+    color: { background: "#99ff99", border: "#66ff66" },
+  },
+  {
     id: "Noah Gathers",
     label: "Noah Gathers\n(Excommunicated)",
     color: { background: "#ff6666", border: "#ff3333" },
@@ -157,7 +162,7 @@ var edges = new vis.DataSet([
   { from: "Khai", to: "Jasmine", label: "Parent", arrows: "to" },
   { from: "Caleb Osborne", to: "Jasmine", label: "Parent", arrows: "to" },
   { from: "Camme", to: "Jasmine", label: "Parent", arrows: "to" },
-  { from: "Noah Jones", to: "Forrest", label: "Parent", arrows: "to" },
+  { from: "Jones", to: "Forrest", label: "Parent", arrows: "to" },
   { from: "Arson", to: "Henry", label: "Parent", arrows: "to" },
   { from: "Myla", to: "Henry", label: "Parent", arrows: "to" },
   { from: "Arson", to: "Ren", label: "Parent", arrows: "to" },
@@ -214,7 +219,7 @@ var edges = new vis.DataSet([
   { from: "Jasmine", to: "Ren", label: "Cousin", arrows: "" },
   { from: "Ayden", to: "Lincoln", label: "Cousin", arrows: "" },
 
-  // Dating (pink)
+  // Dating
   { from: "Camme", to: "Owen", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
   { from: "Milo", to: "Ayden", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
   { from: "Noah Jones", to: "Caleb Osborne", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
@@ -224,7 +229,7 @@ var edges = new vis.DataSet([
   { from: "Alex", to: "Lincoln", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
   { from: "Rowin", to: "Catherine", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
 
-  // Marriages (red)
+  // Marriages
   { from: "Zoe", to: "Cailee", label: "Married", arrows: "", color: { color: "#ff3333" }, width: 2 },
   { from: "Jasmine", to: "Noah Jones", label: "Married", arrows: "", color: { color: "#ff3333" }, width: 2 },
   { from: "Rowin", to: "Catherine", label: "Married", arrows: "", color: { color: "#ff3333" }, width: 2 },

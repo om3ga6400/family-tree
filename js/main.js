@@ -165,10 +165,12 @@ var edges = new vis.DataSet([
   { from: "Catherine", to: "Khai", label: "Parent", arrows: "to" },
   { from: "Catherine", to: "Myla", label: "Step-Parent", arrows: "to" },
   { from: "Catherine", to: "Zoe", label: "Parent", arrows: "to" },
+  { from: "Forrest", to: "Charlie", label: "Parent", arrows: "to" },
   { from: "Forrest", to: "Jasmine", label: "Parent", arrows: "to" },
   { from: "Jasmine", to: "Charlotte", label: "Parent", arrows: "to" },
   { from: "Jasmine", to: "Jack", label: "Parent", arrows: "to" },
   { from: "Jones", to: "Forrest", label: "Parent", arrows: "to" },
+  { from: "Khai", to: "Charlie", label: "Parent", arrows: "to" },
   { from: "Khai", to: "Jasmine", label: "Parent", arrows: "to" },
   { from: "Lincoln", to: "Ren", label: "Parent", arrows: "to" },
   { from: "Milo", to: "Jasmine", label: "Parent", arrows: "to" },
@@ -183,10 +185,11 @@ var edges = new vis.DataSet([
   { from: "Ren", to: "Penny", label: "Parent", arrows: "to" },
 
   // Ex-Parents
-  { from: "Forrest", to: "Nick", label: "Ex-Parent", arrows: "to", dashes: true },
+  { from: "Nick", to: "Forrest", label: "Ex-Parent", arrows: "to", dashes: true },
 
   // Siblings
   { from: "Arson", to: "Khai", label: "Sibling", arrows: "" },
+  { from: "Casey", to: "Forrest", label: "Sibling", arrows: "" },
   { from: "Jasmine", to: "Ayden", label: "Sibling", arrows: "" },
   { from: "Jasmine", to: "Caleb", label: "Sibling", arrows: "" },
   { from: "Jasmine", to: "Mason", label: "Sibling", arrows: "" },

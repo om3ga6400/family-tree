@@ -251,7 +251,7 @@ var options = {
       strokeWidth: 2,
       strokeColor: "#222",
     },
-    smooth: { type: "continuous" },
+    smooth: { type: "dynamic" },
   },
   physics: {
     barnesHut: {

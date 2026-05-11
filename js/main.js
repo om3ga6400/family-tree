@@ -231,7 +231,6 @@ var edges = new vis.DataSet([
 
   // Marriages
   { from: "Jasmine", to: "Noah J", label: "Married", arrows: "", color: { color: "#ff3333" }, width: 2 },
-  { from: "Rowin", to: "Catherine", label: "Married", arrows: "", color: { color: "#ff3333" }, width: 2 },
   { from: "Zoe", to: "Cailee", label: "Married", arrows: "", color: { color: "#ff3333" }, width: 2 },
 
   // Uncles

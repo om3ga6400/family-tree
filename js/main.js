@@ -179,8 +179,6 @@ var edges = new vis.DataSet([
   { from: "Myla", to: "Ren", label: "Parent", arrows: "to" },
   { from: "Noah G", to: "Jasmine", label: "Parent", arrows: "to" },
   { from: "Noah G", to: "Ren", label: "Parent", arrows: "to" },
-  { from: "Noah J", to: "Charlotte", label: "Parent", arrows: "to" },
-  { from: "Noah J", to: "Jack", label: "Parent", arrows: "to" },
   { from: "Noah J", to: "Jasmine", label: "Parent", arrows: "to" },
   { from: "Owen", to: "Jasmine", label: "Parent", arrows: "to" },
   { from: "Ren", to: "Penny", label: "Parent", arrows: "to" },
@@ -226,19 +224,10 @@ var edges = new vis.DataSet([
   { from: "Camme", to: "Owen", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
   { from: "Forrest", to: "Khai", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
   { from: "Milo", to: "Ayden", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
-  { from: "Noah J", to: "Caleb", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
   { from: "Ren", to: "Henry", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
   { from: "Rowin", to: "Catherine", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
 
   // Marriages
-  {
-    from: "Jasmine",
-    to: "Noah J",
-    label: "Married",
-    arrows: "",
-    color: { color: "#ff3333" },
-    width: 2,
-  },
   {
     from: "Zoe",
     to: "Cailee",

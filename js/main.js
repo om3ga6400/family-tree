@@ -207,7 +207,6 @@ var edges = new vis.DataSet([
   { from: "Jack", to: "Charlotte", label: "Sibling", arrows: "" },
   { from: "Jasmine", to: "Ayden", label: "Sibling", arrows: "" },
   { from: "Jasmine", to: "Caleb", label: "Sibling", arrows: "" },
-  { from: "Jasmine", to: "Mason", label: "Sibling", arrows: "" },
   { from: "Jasmine", to: "Noah J", label: "Sibling", arrows: "" },
   { from: "Jasmine", to: "Owen", label: "Sibling", arrows: "" },
   { from: "Nick", to: "Catherine", label: "Sibling", arrows: "" },

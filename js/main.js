@@ -20,6 +20,11 @@ var nodes = new vis.DataSet([
     color: { background: "#9999ff", border: "#6666ff" },
   },
   {
+    id: "Bryson",
+    label: "Bryson",
+    color: { background: "#ffd9b3", border: "#ffaa66" },
+  },
+  {
     id: "Cailee",
     label: "Cailee",
     color: { background: "#ffcccc", border: "#ff9999" },
@@ -83,6 +88,11 @@ var nodes = new vis.DataSet([
     id: "Khai",
     label: "Khai",
     color: { background: "#ff99ff", border: "#ff66ff" },
+  },
+  {
+    id: "Kieran",
+    label: "Kieran",
+    color: { background: "#c299ff", border: "#9966ff" },
   },
   {
     id: "Lincoln",
@@ -223,6 +233,7 @@ var edges = new vis.DataSet([
   { from: "Arson", to: "Myla", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
   { from: "Camme", to: "Owen", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
   { from: "Forrest", to: "Khai", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
+  { from: "Kieran", to: "Jasmine", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
   { from: "Milo", to: "Ayden", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
   { from: "Ren", to: "Henry", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
   { from: "Rowin", to: "Catherine", label: "Dating", arrows: "", color: { color: "#ff69b4" } },
@@ -239,6 +250,9 @@ var edges = new vis.DataSet([
 
   // Uncles
   { from: "Casey", to: "Jasmine", label: "Uncle", arrows: "to" },
+
+  // Great-Uncles
+  { from: "Bryson", to: "Jack", label: "Great-Uncle", arrows: "to" },
 ]);
 
 var container = document.getElementById("mynetwork");
